@@ -1,6 +1,6 @@
 {
   "name": "graphql-schema-registry",
-  "version": "1.2.5",
+  "version": "2.0.1",
   "description": "Graphql schema registry",
   "main": "schema-registry.js",
   "scripts": {
@@ -44,10 +44,12 @@
     "body-parser": "^1.19.0",
     "dataloader": "^2.0.0",
     "date-fns": "^2.9.0",
+    "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "graphql": "^15.4.0",
     "graphql-voyager": "^1.0.0-rc.31",
     "joi": "^17.2.1",
+    "kafkajs": "^1.15.0",
     "knex": "^0.20.2",
     "lodash": "^4.17.20",
     "mysql2": "^2.0.1",
